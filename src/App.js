@@ -4,6 +4,7 @@ import Productos from "./components/Productos";
 import Layout from "./components/Layout";
 import Titulo from "./components/Titulo";
 import NavBar from "./components/NavBar";
+import Footer from "./components/Footer";
 
 class App extends Component {
     // Estado inicial
@@ -60,7 +61,7 @@ class App extends Component {
 
     mostrarCarro = () => {
         if (!this.state.carro.length) {
-            return
+            return;
         }
         this.setState({ carroVisible: !this.state.carroVisible });
     };
@@ -81,6 +82,7 @@ class App extends Component {
                         productos={this.state.productos}
                     />
                 </Layout>
+                <Footer />
             </div>
         );
     }

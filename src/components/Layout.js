@@ -7,8 +7,8 @@ const estilo = {
         alignItems: "center",
         display: "flex",
         flexDirection: "column",
+        minHeight: "100vh",
     },
-
 };
 
 class Layout extends Component {
@@ -17,9 +17,7 @@ class Layout extends Component {
             // Este div centrará el contenido en pantalla
             <div style={estilo.layout}>
                 {/* Este segundo, le daremos un ancho de 1200px */}
-                <div>
-                    {this.props.children}
-                </div>
+                <div>{this.props.children}</div>
             </div>
         );
     }
