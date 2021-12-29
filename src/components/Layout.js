@@ -9,9 +9,6 @@ const estilo = {
         flexDirection: "column",
     },
 
-    container: {
-        width: "1200px",
-    },
 };
 
 class Layout extends Component {
@@ -20,7 +17,7 @@ class Layout extends Component {
             // Este div centrará el contenido en pantalla
             <div style={estilo.layout}>
                 {/* Este segundo, le daremos un ancho de 1200px */}
-                <div style={estilo.container}>
+                <div>
                     {this.props.children}
                 </div>
             </div>

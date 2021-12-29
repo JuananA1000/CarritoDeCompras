@@ -8,7 +8,7 @@ const estilo = {
 
 class Titulo extends Component {
     render() {
-        return <h1 style={estilo.titulo}>Maduro el duro</h1>;
+        return <h1 style={estilo.titulo}>Frutería</h1>;
     }
 }
 
