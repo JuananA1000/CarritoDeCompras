@@ -1,29 +1,35 @@
-import { Component } from "react";
+import { Component } from 'react';
 
-import Productos from "./components/Productos";
-import Layout from "./components/Layout";
-import Titulo from "./components/Titulo";
-import NavBar from "./components/NavBar";
-import Footer from "./components/Footer";
+// Importamos COMPONENTES
+import Productos from './components/Productos';
+import Layout from './components/Layout';
+import Titulo from './components/Titulo';
+import NavBar from './components/NavBar';
+import Footer from './components/Footer';
+
+// Importamos PRODUCTOS
+import tomate from './components/productos/tomate.jpg';
+import lechuga from './components/productos/lechuga.jpg';
+import guisantes from './components/productos/guisantes.jpg';
 
 class App extends Component {
     // Estado inicial
     state = {
         productos: [
             {
-                nombre: "Tomate",
+                nombre: 'Tomate',
                 precio: 1500,
-                img: "./productos/tomate.jpg",
+                img: tomate,
             },
             {
-                nombre: "Guisantes",
+                nombre: 'Guisantes',
                 precio: 2500,
-                img: "/productos/guisantes.jpg",
+                img: guisantes,
             },
             {
-                nombre: "Lechuga",
+                nombre: 'Lechuga',
                 precio: 500,
-                img: "/productos/lechuga.jpg",
+                img: lechuga,
             },
         ],
 
