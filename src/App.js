@@ -13,7 +13,7 @@ class App extends Component {
             {
                 nombre: "Tomate",
                 precio: 1500,
-                img: "/productos/tomate.jpg",
+                img: "./productos/tomate.jpg",
             },
             {
                 nombre: "Guisantes",
