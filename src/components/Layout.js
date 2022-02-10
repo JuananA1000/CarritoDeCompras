@@ -2,7 +2,7 @@ import { Component } from "react";
 
 const estilo = {
     layout: {
-        fontFamily: 'arial', // PENDIENTE: cambiar fuente a TODA LA PÁGINA
+        fontFamily: 'arial',
         backgroundColor: "#fff",
         color: "#0A283E",
         alignItems: "center",

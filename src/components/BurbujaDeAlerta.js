@@ -2,6 +2,7 @@ import { Component } from "react";
 
 const estilo = {
     burbujaDeAlerta: {
+        fontFamily: 'arial',
         backgroundColor: "#E9725A",
         borderRadius: "15px",
         color: "#fff",
