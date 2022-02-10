@@ -1,5 +1,5 @@
 import { Component } from 'react';
-import logo from './productos/logo.png';
+import logo from './img/logo.png';
 
 const estilo = {
     logo: {

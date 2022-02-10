@@ -8,9 +8,9 @@ import NavBar from './components/NavBar';
 import Footer from './components/Footer';
 
 // Importamos PRODUCTOS
-import tomate from './components/productos/tomate.jpg';
-import lechuga from './components/productos/lechuga.jpg';
-import guisantes from './components/productos/guisantes.jpg';
+import tomate from './components/img/tomate.jpg';
+import lechuga from './components/img/lechuga.jpg';
+import guisantes from './components/img/guisantes.jpg';
 
 class App extends Component {
     // Estado inicial
