@@ -1,5 +1,5 @@
 import { Component } from 'react';
-import logoFruta from './productos/logoFruta.png';
+import logo from './productos/logo.png';
 
 const estilo = {
     logo: {
@@ -7,6 +7,7 @@ const estilo = {
         maxWidth: '100px',
         fontWeight: '700',
         fontSize: '2rem',
+        marginBottom: '15px',
     },
 
     img: {
@@ -18,7 +19,7 @@ class Logo extends Component {
     render() {
         return (
             <div style={estilo.logo}>
-                <img style={estilo.img} src={logoFruta} alt='[logo]' />
+                <img style={estilo.img} src={logo} alt='[logo]' />
             </div>
         );
     }
