@@ -3,6 +3,7 @@ import Producto from "./Producto";
 
 const estilo = {
     detalleCarro: {
+        fontFamily: 'arial',
         backgroundColor: "#fff",
         position: "absolute",
         marginTop: 30,

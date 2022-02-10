@@ -87,8 +87,10 @@ class App extends Component {
                         agregarAlCarro={this.agregarAlCarro}
                         productos={this.state.productos}
                     />
+  
                 </Layout>
                 <Footer />
+  
             </div>
         );
     }

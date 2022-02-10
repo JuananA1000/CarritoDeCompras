@@ -2,6 +2,7 @@ import { Component } from "react";
 
 const estilo = {
     footer: {
+        fontFamily: 'arial',
         border: "solid 1px #eee",
         backgroundColor: "#fff",
         padding: "10px",
